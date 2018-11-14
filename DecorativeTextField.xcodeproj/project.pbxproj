@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A57E6092194D62000FF3BF6 /* Chess-Game.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A57E6082194D62000FF3BF6 /* Chess-Game.png */; };
 		7AEA83CA21937DDE00A947E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEA83C921937DDE00A947E8 /* AppDelegate.swift */; };
 		7AEA83CC21937DDE00A947E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEA83CB21937DDE00A947E8 /* ViewController.swift */; };
 		7AEA83CF21937DDE00A947E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AEA83CD21937DDE00A947E8 /* Main.storyboard */; };
 		7AEA83D121937DDF00A947E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AEA83D021937DDF00A947E8 /* Assets.xcassets */; };
 		7AEA83D421937DDF00A947E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AEA83D221937DDF00A947E8 /* LaunchScreen.storyboard */; };
+		7AEA83DC21937DF300A947E8 /* DecoratedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEA83DB21937DF300A947E8 /* DecoratedTextField.swift */; };
+		7AEA83DE219490C000A947E8 /* sign-check-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AEA83DD219490C000A947E8 /* sign-check-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A57E6082194D62000FF3BF6 /* Chess-Game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chess-Game.png"; sourceTree = "<group>"; };
 		7AEA83C621937DDE00A947E8 /* DecorativeTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DecorativeTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AEA83C921937DDE00A947E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AEA83CB21937DDE00A947E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		7AEA83D021937DDF00A947E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AEA83D321937DDF00A947E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AEA83D521937DDF00A947E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AEA83DB21937DF300A947E8 /* DecoratedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratedTextField.swift; sourceTree = "<group>"; };
+		7AEA83DD219490C000A947E8 /* sign-check-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sign-check-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				7AEA83C921937DDE00A947E8 /* AppDelegate.swift */,
 				7AEA83CB21937DDE00A947E8 /* ViewController.swift */,
 				7AEA83CD21937DDE00A947E8 /* Main.storyboard */,
+				7AEA83DB21937DF300A947E8 /* DecoratedTextField.swift */,
+				7AEA83DD219490C000A947E8 /* sign-check-icon.png */,
+				7A57E6082194D62000FF3BF6 /* Chess-Game.png */,
 				7AEA83D021937DDF00A947E8 /* Assets.xcassets */,
 				7AEA83D221937DDF00A947E8 /* LaunchScreen.storyboard */,
 				7AEA83D521937DDF00A947E8 /* Info.plist */,
@@ -122,7 +131,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AEA83DE219490C000A947E8 /* sign-check-icon.png in Resources */,
 				7AEA83D421937DDF00A947E8 /* LaunchScreen.storyboard in Resources */,
+				7A57E6092194D62000FF3BF6 /* Chess-Game.png in Resources */,
 				7AEA83D121937DDF00A947E8 /* Assets.xcassets in Resources */,
 				7AEA83CF21937DDE00A947E8 /* Main.storyboard in Resources */,
 			);
@@ -137,6 +148,7 @@
 			files = (
 				7AEA83CC21937DDE00A947E8 /* ViewController.swift in Sources */,
 				7AEA83CA21937DDE00A947E8 /* AppDelegate.swift in Sources */,
+				7AEA83DC21937DF300A947E8 /* DecoratedTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
